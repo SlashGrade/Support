@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## SpeedHost
 
-You can use the [editor on GitHub](https://github.com/SlashGrade/Support/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a simple Host config app
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can add many Host config Here
 
-### Markdown
+Each Host config contains a Host,and the IP the host point to
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+If you added a host,When Network request for this host,the system will directly use your config's ip instead of make a dns look up
 
-```markdown
-Syntax highlighted code block
+This can help you Specify the IP for certain hosts 
 
-# Header 1
-## Header 2
-### Header 3
+This can help you out of DNS pollution
 
-- Bulleted
-- List
+This can speed your dns lookup
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Contact us
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SlashGrade/Support/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+zhaoting7959475@163.com
